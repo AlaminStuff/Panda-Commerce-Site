@@ -1,10 +1,13 @@
+.navbar{
+    box-shadow: .1px .2px 2px;
+}
 .container{
     margin-bottom: 100px;
 }
 .gray-bg{
     background-color: #fceae8;
     border-radius: 5px;
-    box-shadow: 2px 2px 20px;
+    box-shadow: 1px 1px 10px;
 }
 .carousel-item{
     padding: 20px 40px;
@@ -20,6 +23,10 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.buy-now-button:hover{
+   color: black;
+   background-image: linear-gradient(to bottom, #c52b92 30%, #973b88 70%);
 }
 
 .cat1, .cat2, .cat3{
